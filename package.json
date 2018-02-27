@@ -5,13 +5,16 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "ng build --target production --build-optimizer --vendor-chunk",
+    "dev": "ng build",
+    "test": "ng test --browser ChromeHeadless --single-run",
+    "watch": "ng test --browser ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/core": "^0.4.2",
     "@angular/animations": "^5.2.6",
     "@angular/cdk": "^5.2.3",
     "@angular/common": "^5.0.0",
