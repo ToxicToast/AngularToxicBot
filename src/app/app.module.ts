@@ -21,9 +21,7 @@ import { TwitchModule } from '@twitch/twitch.module';
     ChatModule,
     DashboardModule,
   ],
-  providers: [
-    
-  ],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
