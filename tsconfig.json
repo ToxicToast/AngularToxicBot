@@ -20,7 +20,8 @@
       "@app/*": ["app/*"],
       "@env/*": ["environments/*"],
       "@assets/*": ["assets/*"],
-      "@chat/*": ["app/chat/*"]
+      "@chat/*": ["app/chat/*"],
+      "@twitch/*": ["app/twitch/*"]
     }
   }
 }
