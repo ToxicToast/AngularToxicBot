@@ -21,7 +21,9 @@
       "@env/*": ["environments/*"],
       "@assets/*": ["assets/*"],
       "@chat/*": ["app/chat/*"],
-      "@twitch/*": ["app/twitch/*"]
+      "@twitch/*": ["app/twitch/*"],
+      "@core/*": ["app/core/*"],
+      "@dashboard/*": ["app/dashboard/*"]
     }
   }
 }
