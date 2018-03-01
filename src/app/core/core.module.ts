@@ -5,6 +5,7 @@ import { ErrorComponent } from '@core/components/error/error.component';
 import { SplashScreenComponent } from '@core/components/splash-screen/splash-screen.component';
 import { ModalComponent } from '@core/components/modal/modal.component';
 import { AuthGuardService } from '@core/services/auth-guard.service';
+import { LayoutComponent } from '@core/containers/layout/layout.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AuthGuardService } from '@core/services/auth-guard.service';
     LoadingComponent,
     ErrorComponent,
     SplashScreenComponent,
-    ModalComponent
+    ModalComponent,
+    LayoutComponent
   ],
   providers: [
     AuthGuardService
@@ -24,7 +26,8 @@ import { AuthGuardService } from '@core/services/auth-guard.service';
     LoadingComponent,
     ErrorComponent,
     SplashScreenComponent,
-    ModalComponent
+    ModalComponent,
+    LayoutComponent
   ]
 })
 export class CoreModule { }

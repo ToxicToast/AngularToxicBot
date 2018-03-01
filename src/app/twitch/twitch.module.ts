@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TwitchRoutingModule } from './twitch-routing.module';
+import { CoreModule } from '@core/core.module';
+
+import { TwitchRoutingModule } from '@twitch/twitch-routing.module';
 import { TwitchService } from '@twitch/services/twitch.service';
-import { SettingsComponent } from './Containers/settings/settings.component';
 
 @NgModule({
   imports: [
     CommonModule,
+    CoreModule,
     TwitchRoutingModule
   ],
-  declarations: [SettingsComponent],
+  declarations: [],
   providers: [
     TwitchService
   ]
