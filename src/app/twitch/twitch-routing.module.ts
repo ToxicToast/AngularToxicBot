@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { SettingsContainerComponent } from '@twitch/containers/settings-container/settings-container.component';
+
+const routes: Routes = [
+  { path: '', component: SettingsContainerComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
