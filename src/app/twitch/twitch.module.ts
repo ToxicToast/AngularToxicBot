@@ -6,7 +6,7 @@ import { CoreModule } from '@core/core.module';
 import { TwitchRoutingModule } from '@twitch/twitch-routing.module';
 import { TwitchService } from '@twitch/services/twitch.service';
 import { SettingsContainerComponent } from '@twitch/containers/settings-container/settings-container.component';
-import { FirstStartComponent } from './Components/first-start/first-start.component';
+import { FirstStartComponent } from '@twitch/components/first-start/first-start.component';
 
 @NgModule({
   imports: [
